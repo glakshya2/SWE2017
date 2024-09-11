@@ -23,6 +23,5 @@ int main(void) {
     }
     end_time = omp_get_wtime();
     printf("Serial time: %f\n", end_time - start_time);
-    printf("%d\n", omp_get_max_threads());
     return 0;
 }
